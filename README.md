@@ -69,7 +69,7 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running docker ps after successfully configuring the ELK instance.
 
-https://github.com/purnimady/Psomayaj_CSBC_PROJ1/blob/main/Diagrams/DIagram with ELKstack.JPG
+[https://github.com/purnimady/Psomayaj_CSBC_PROJ1/blob/main/Diagrams/DIagram with ELKstack.JPG](https://github.com/purnimady/Psomayaj_CSBC_PROJ1/blob/main/Diagrams/DIagram%20with%20ELKstack.JPG)
 
 Target Machines & Beats
     This ELK server is configured to monitor the following machines:
