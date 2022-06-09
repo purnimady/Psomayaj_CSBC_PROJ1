@@ -38,15 +38,11 @@ The configuration details of each machine may be found below.
 Name	    |     Function	      |   IP Address	|   Operating System |
 ------------|---------------------|-----------------|--------------------|
 Jump Box	|   Gateway	          |  10.0.0.4	    |   Linux            |
-------------|---------------------|-----------------|--------------------|
 Web-1	    |   Server	          |  10.0.0.5	    |   Linux            |
-------------|---------------------|-----------------|--------------------|
 Web-2	    |   Server	          |  10.0.0.6	    |   Linux            |
-------------|---------------------|-----------------|--------------------|
 Web-3       |   Server            |  10.0.0.7       |   Linux            |
-------------|---------------------|-----------------|--------------------|
 ElkStack    |   Log Gathering	  |  10.1.0.4	    |   Linux            |
-------------|---------------------|-----------------|--------------------|
+
 
 Access Policies
     The machines on the internal network are not exposed to the public Internet.Only the JumpBox Provisioiner & Elk Stack machine can accept connections from the Internet. Access to this machine is only allowed from my public IP.Machines within the network can only be accessed by the JumpBox Provisioner. The only machine that had access to the ELK VM was the Jump Box Provisioner with the IP address of 10.0.0.4
@@ -59,7 +55,7 @@ Name	   |    Publicly Accessible	|   Public IP
 Jump Box   |    Yes	                |   52.189.224.74
 Web 1 & 2  |    No	                |   10.0.0.4
 ElkStack   |    Yes	                |   20.70.25.165
------------|------------------------|-----------------
+
 
 Elk Configuration
     Ansible was used to automate configuration of the ELK machine. Ansible improves efficiency, management, and scalability by allowing you to manage all servers at once instead of managing each server one by one.
