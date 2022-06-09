@@ -34,7 +34,7 @@ What does Metricbeat record?
 
 The configuration details of each machine may be found below.
 
-------------|---------------------|-----------------|--------------------|
+
 Name	    |     Function	      |   IP Address	|   Operating System |
 ------------|---------------------|-----------------|--------------------|
 Jump Box	|   Gateway	          |  10.0.0.4	    |   Linux            |
@@ -55,7 +55,7 @@ A summary of the access policies in place can be found in the table below.
 
 -----------------------------------------------------
 Name	   |    Publicly Accessible	|   Public IP
------------------------------------------------------
+-----------|------------------------|----------------
 Jump Box   |    Yes	                |   52.189.224.74
 Web 1 & 2  |    No	                |   10.0.0.4
 ElkStack   |    Yes	                |   20.70.25.165
